@@ -13,5 +13,8 @@ public class Controller {
         return "Hello World!";
     }
     
-    
+    @GetMapping("/error")
+    public String getError() {
+        return "Error";
+    }
 }
